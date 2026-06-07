@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchoolApp.StudentDetailPage"
+             Title="Student">
+    <VerticalStackLayout Padding="30" Spacing="16">
+        <Label x:Name="NameLabel" FontSize="28" FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        <Label x:Name="VowelLabel" FontSize="18"
+               HorizontalOptions="Center" TextColor="Gray" />
+        <Label x:Name="LengthLabel" FontSize="18"
+               HorizontalOptions="Center" TextColor="Gray" />
+        <Button Text="Back" Clicked="OnBackClicked" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
